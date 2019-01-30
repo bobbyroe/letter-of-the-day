@@ -1,0 +1,16 @@
+
+.menu {
+    position: absolute;
+    top: 0px;
+    width: 1280px;
+    text-align: left;
+    padding: 10px;
+    /* background-color: blanchedalmond; */
+    margin: 0 auto;
+}
+
+.menu-item {
+    color: #0000FF;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
