@@ -1,0 +1,28 @@
+.quadrant {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 640px;
+    height: 512px;
+    margin: 0;
+    padding: 0;
+    color: #E0E0E0;
+    font-size: 72px;
+    overflow: hidden;
+}
+
+#letter-quad {
+    background-color: #8899AA;
+}
+
+#color-quad {
+    background-color: #778899;
+}
+
+#food-quad {
+    background-color: #990000;
+}
+
+#thing-quad {
+    background-color: #8899AA;
+}
