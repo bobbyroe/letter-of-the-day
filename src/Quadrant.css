@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     color: #E0E0E0;
-    font-size: 72px;
+    font-size: 196px;
     overflow: hidden;
 }
 
@@ -24,5 +24,6 @@
 }
 
 #thing-quad {
+    /* font-size: 72px; */
     background-color: #8899AA;
 }

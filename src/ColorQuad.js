@@ -12,7 +12,6 @@ class ColorQuad extends Component {
     }
     componentDidMount () {
         const obj = data[this.props.letter];
-        console.log(obj, this.props.letter, data);
         this.setState({
             color: (obj !== undefined) ? obj.color : "NOPE",
             hex: (obj !== undefined) ? obj.hex : "#404040"
