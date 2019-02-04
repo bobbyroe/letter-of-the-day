@@ -1,183 +1,183 @@
 {
     "A": {
         "color": "Aquamarine",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#7FFFD4",
+        "food": "Apple",
+        "thing": "Alien",
         "emoji": ""
     },
     "B": {
         "color": "Blue",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#0000FF",
+        "food": "Banana",
+        "thing": "Butt",
         "emoji": ""
     },
     "C": {
         "color": "Cyan",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#00FFFF",
+        "food": "Corn Cob",
+        "thing": "Compost Bin",
         "emoji": ""
     },
     "D": {
-        "color": "Dandelion",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "color": "dodgerblue",
+        "hex": "#1E90FF",
+        "food": "Donut",
+        "thing": "Dinosaur",
         "emoji": ""
     },
     "E": {
         "color": "Emerald",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#32CD32",
+        "food": "Egg",
+        "thing": "Eye Ball",
         "emoji": ""
     },
     "F": {
         "color": "Fuchsia",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FF00FF",
+        "food": "French Fry",
         "thing": "",
         "emoji": ""
     },
     "G": {
         "color": "Green",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#008000",
+        "food": "Grapes",
+        "thing": "Gargantuar",
         "emoji": ""
     },
     "H": {
         "color": "Harlequin",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#ADFF2F",
+        "food": "Hamburger",
         "thing": "",
         "emoji": ""
     },
     "I": {
         "color": "Indigo",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#4B0082",
+        "food": "Ice Cream Sandwich",
         "thing": "",
         "emoji": ""
     },
     "J": {
         "color": "Jade",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#00A177",
+        "food": "Jelly Bean",
         "thing": "",
         "emoji": ""
     },
     "K": {
         "color": "Khaki",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#F0E68C",
+        "food": "Kelp",
         "thing": "",
         "emoji": ""
     },
     "L": {
         "color": "Lime",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#00FF00",
+        "food": "Lime",
         "thing": "",
         "emoji": ""
     },
     "M": {
         "color": "Magenta",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#9400D3",
+        "food": "Marzipan",
         "thing": "",
         "emoji": ""
     },
     "N": {
         "color": "Navy",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#000080",
+        "food": "Noodles",
         "thing": "",
         "emoji": ""
     },
     "O": {
         "color": "Orange",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FFA500",
+        "food": "Orange",
         "thing": "",
         "emoji": ""
     },
     "P": {
         "color": "Purple",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#800080",
+        "food": "Potato Chips",
         "thing": "",
         "emoji": ""
     },
     "Q": {
         "color": "Quicksilver",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#B0C4DE",
+        "food": "Quinua",
         "thing": "",
         "emoji": ""
     },
     "R": {
         "color": "Red",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#FF0000",
+        "food": "Rice Krispie Treats",
+        "thing": "Robot",
         "emoji": ""
     },
     "S": {
         "color": "Scarlet",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FF2200",
+        "food": "Soup",
         "thing": "",
         "emoji": ""
     },
     "T": {
         "color": "Turquoise",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#40E0D0",
+        "food": "Tacos",
         "thing": "",
         "emoji": ""
     },
     "U": {
         "color": "Ultramarine",
         "hex": "#990000",
-        "food": "",
+        "food": "Udon",
         "thing": "",
         "emoji": ""
     },
     "V": {
         "color": "Violet",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#DDA0DD",
+        "food": "Vanilla Ice Cream",
         "thing": "",
         "emoji": ""
     },
     "W": {
         "color": "White",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FFFFFF",
+        "food": "Watermelon",
         "thing": "",
         "emoji": ""
     },
     "X": {
         "color": "Xfml",
-        "hex": "#990000",
-        "food": "",
-        "thing": "",
+        "hex": "#DCDCDC",
+        "food": "Xfml",
+        "thing": "Xiphias",
         "emoji": ""
     },
     "Y": {
         "color": "Yellow",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FFFF00",
+        "food": "Yuzu",
         "thing": "",
         "emoji": ""
     },
     "Z": {
         "color": "Zircon",
-        "hex": "#990000",
-        "food": "",
+        "hex": "#FAFAD2",
+        "food": "Zwiback Toast",
         "thing": "",
         "emoji": ""
     }
