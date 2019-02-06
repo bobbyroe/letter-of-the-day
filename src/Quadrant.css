@@ -1,13 +1,13 @@
 .quadrant {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 640px;
+    width: 320px;
     height: 512px;
     margin: 0;
     padding: 0;
     color: #E0E0E0;
-    font-size: 196px;
+    font-size: 48px;
     overflow: hidden;
 }
 
@@ -24,6 +24,8 @@
 }
 
 #thing-quad {
-    /* font-size: 72px; */
     background-color: #8899AA;
+}
+#emoji {
+    font-size: 95px;
 }

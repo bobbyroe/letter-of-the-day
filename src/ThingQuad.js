@@ -16,7 +16,7 @@ class ThingQuad extends Component {
         const obj = data[this.props.letter];
         this.setState({
             emoji: (obj !== undefined) ? obj.emoji : "⛔️",
-        })
+        });
     }
 
     render() {
@@ -25,7 +25,7 @@ class ThingQuad extends Component {
         }
         return (
             <div className="quadrant" id="thing-quad" style={style_obj}>
-                {this.state.emoji}
+                <div id="emoji">{this.state.emoji}</div>
         </div>
         );
     }

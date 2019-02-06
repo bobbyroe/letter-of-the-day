@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './LotDApp.css';
 import LetterQuad from "./LetterQuad";
 import ColorQuad from "./ColorQuad";
 import FoodQuad from "./FoodQuad";
@@ -18,10 +17,10 @@ class LotDApp extends Component {
     render () {
         return (
             <div className="LotD-App">
-                <LetterQuad letter={this.state.letter} />
-                <ColorQuad letter={this.state.letter} />
-                <FoodQuad letter={this.state.letter} />
                 <ThingQuad letter={this.state.letter} />
+                <ColorQuad letter={this.state.letter} />
+                <LetterQuad letter={this.state.letter} />
+                {/* <FoodQuad letter={this.state.letter} /> */}
             </div>
         );
     }
