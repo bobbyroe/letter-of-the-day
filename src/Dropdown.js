@@ -10,17 +10,21 @@ class Dropdown extends Component {
             position: {
                 top: 0,
                 left: 0,
-            }
+            },
+            items: ["item 1", "item 2", "item 3", "item 4", "item 5"],
+            current_id: "none"
         }
         this.body = React.createRef();
     }
 
-    show(pos) {
-        const { top, left } = pos;
+    show(evt) {
+        const { top, left } = evt.target.getBoundingClientRect();
+        const current_id = evt.target.id;
         this.setState({ 
             hiddenClassName: "",
             top: top + 20,
-            left: left - 150,
+            left: left - 92,
+            current_id,
         });
     }
 
@@ -38,12 +42,10 @@ class Dropdown extends Component {
                 className={`dropdown ${this.state.hiddenClassName}`}
                 style={styleObj}
                 ref={this.body}
+                id="dd-menu"
             >
-                <div className="dropdown-item">item 1</div>
-                <div className="dropdown-item">item 2</div>
-                <div className="dropdown-item">item 3</div>
-                <div className="dropdown-item">item 4</div>
-                <div className="dropdown-item">item 5</div>
+            {this.state.items.map((item, i) =>
+                <div className="dropdown-item" key={i}>{this.state.current_id + " " + item}</div>)}
             </div>
         );
     }

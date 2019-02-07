@@ -21,15 +21,19 @@ class LotDApp extends Component {
     }
     
     handleMouseOver(evt) {
-        const { top, left, width } = evt.target.getBoundingClientRect();
+        // console.log(evt.target.className);
         if (evt.target.className === "menu-item") {
-            this.dropdown.current.show({top, left});
+            this.dropdown.current.show(evt);
+        }
+        if (evt.target.className === "quadrant") {
+            this.dropdown.current.hide();
         }
     }
 
     handleMouseOut(evt) {
+        
         if (evt.target.className === "menu-item") {
-            this.dropdown.current.hide();
+            // this.dropdown.current.hide();
         }
     }
 
