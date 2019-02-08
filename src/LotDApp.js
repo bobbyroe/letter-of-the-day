@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './LotDApp.css';
 import LetterQuad from "./LetterQuad";
 import ColorQuad from "./ColorQuad";
 import FoodQuad from "./FoodQuad";

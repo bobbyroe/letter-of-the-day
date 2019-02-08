@@ -18,12 +18,13 @@ class Dropdown extends Component {
     }
 
     show(evt) {
-        const { top, left } = evt.target.getBoundingClientRect();
+        const left = evt.target.offsetLeft;
+        const { bottom } = evt.target.getBoundingClientRect();
         const current_id = evt.target.id;
         this.setState({ 
             hiddenClassName: "",
-            top: top + 20,
-            left: left - 92,
+            top: bottom,
+            left,
             current_id,
         });
     }
