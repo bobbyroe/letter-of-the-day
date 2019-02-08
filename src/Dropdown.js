@@ -45,7 +45,8 @@ class Dropdown extends Component {
                 id="dd-menu"
             >
             {this.state.items.map((item, i) =>
-                <div className="dropdown-item" key={i}>{this.state.current_id + " " + item}</div>)}
+                <div className="dropdown-item" key={i}>{this.state.current_id + " " + item}</div>
+            )}
             </div>
         );
     }
