@@ -12,7 +12,8 @@ class LotDApp extends Component {
         const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
         const date = new Date();
         // see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-        const rng = new RNG(date.getMinutes());
+        const seed = Math.round(date.getMinutes() / 12); // update every 5 mins
+        const rng = new RNG(seed);
         let rand = rng.nextFloat();
         this.state = {
             letter: letters[Math.floor(rand * letters.length)]

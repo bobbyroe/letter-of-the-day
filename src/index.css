@@ -26,4 +26,8 @@ code {
 
 .LotD-App {
   text-align: center;
+
+  height: 660px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }

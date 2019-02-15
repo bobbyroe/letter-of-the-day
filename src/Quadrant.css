@@ -9,6 +9,8 @@
     color: #E0E0E0;
     font-size: 48px;
     overflow: hidden;
+
+    scroll-snap-align: start;
 }
 
 #letter-quad {
